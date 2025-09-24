@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "FinFam",
+    "slug": "FinFam",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon.png",
+    "scheme": "finfam",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fin.fam",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.fin.fam"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/app-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/app-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "27ef7d1e-7e84-40c6-988a-4b880ac985a9"
+      }
+    },
+    "owner": "huzaifasalah9",
+    "updates": {
+      "url": "https://u.expo.dev/27ef7d1e-7e84-40c6-988a-4b880ac985a9",
+      "fallbackToCacheTimeout": 0,
+      "enabled": true
+    }
+  }
+}
