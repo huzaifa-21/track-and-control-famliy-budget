@@ -2,6 +2,6 @@
 
 FinFam is a mobile application that helps users manage their finances and make informed decisions about their money.
 
-## our vision
+## How to install
 
-to be the number 1 financial app for the family
+download the application from [here](https://drive.google.com/file/d/1BvQi415C0w-ylhv9B6FLeACQxpPQUEGU/view?usp=drive_link)
