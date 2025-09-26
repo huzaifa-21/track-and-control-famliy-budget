@@ -44,7 +44,7 @@ Relationships:
 1. Clone the repository:
    ```bash
    git clone https://github.com/huzaifa-21/track-and-control-famliy-budget.git
-   cd finfam
+   cd "track-and-control-famliy-budget"
    ```
 2. Install dependencies:
    ```bash
