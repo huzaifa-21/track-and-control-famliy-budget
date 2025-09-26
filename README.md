@@ -43,7 +43,7 @@ Relationships:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/finfam.git
+   git clone https://github.com/huzaifa-21/track-and-control-famliy-budget.git
    cd finfam
    ```
 2. Install dependencies:
@@ -88,7 +88,7 @@ Relationships:
 ## Credits
 
 - Developed by: **Huzaifa Salaheldin Abdelrahman Ali**
-- Supervisor: **Dr. Hanaa Mohamed Jamal**
+- Supervisor: **Dr. Hanaa Mohamed kamal**
 - University of Jordanian-Sudanese for Science & Technology – Software Engineering Dept.
 
 ---
