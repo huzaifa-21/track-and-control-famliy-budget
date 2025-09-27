@@ -24,9 +24,10 @@ const SignIn = () => {
     setIsLoading(true);
     const response = await loginUser(formData.email, formData.password);
     setIsLoading(false);
-    router.replace("/(tabs)");
     if (!response.success) {
-      Alert.alert("Login", response.msg);
+      return Alert.alert("Login", response.msg);
+    } else {
+      router.replace("/(tabs)");
     }
   };
 
